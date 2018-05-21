@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project default="full-build">
+<property name="phpunit" value="phpunit"/>
+
+<target name="full-build"
+      depends="phpunit-unittests"
+      description="runs the tests"/>
+      
+	<target name="phpunit-unittests">
+	  <exec dir="${basedir}/tests" executable="phpunit" failonerror="true" description="Run unit tests with PHPUnit">
+		  <env key="APPLICATION_ENV" value="testing"/>
+		  <arg line="--verbose --stderr" />   
+	  </exec>
+	</target>
+</project>
