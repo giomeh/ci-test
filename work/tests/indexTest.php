@@ -5,19 +5,14 @@ use PHPUnit\Framework\TestCase;
 
 final class indexTest extends TestCase
 {
-    public function testEqualityTrue() {
-        echo "\n";
-        echo "testing equality... \n";
-        try {
+    public function testEquality_1() {
+        
             $this -> assertEquals(2,2);
-            echo "test succeded \n";
-        } catch (Exception $e) {
-            echo "test failed \n";
-        } 
+
    }
 
-    public function testEqualityFalse() {
-        echo "\n";
-            $this -> assertEquals(3,3);
+    public function testEquality_2() {
+
+            $this -> assertEquals(4,4);
     }
 }
