@@ -13,6 +13,6 @@ final class indexTest extends TestCase
 
     public function testEquality_2() {
 
-            $this -> assertEquals(4,4);
+            $this -> assertEquals(3,4);
     }
 }
