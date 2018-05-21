@@ -1,6 +1,6 @@
 <?php
 
 echo "let's start";
-echo "hey again??";
+echo "hey again?";
 
 ?>
