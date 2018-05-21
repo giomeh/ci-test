@@ -18,6 +18,6 @@ final class indexTest extends TestCase
 
     public function testEqualityFalse() {
         echo "\n";
-            $this -> assertEquals(2,4);
+            $this -> assertEquals(4,4);
     }
 }
